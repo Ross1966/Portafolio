@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-
+import { Link } from "react-router-dom";
 
 export const Cabecera = () => {
 
@@ -8,9 +8,9 @@ export const Cabecera = () => {
         <div className="navbar">
             <div className="nav_logo"> Rosa María Ibáñez</div>
             <div className={`nav_items ${isOpen && "open"}`}>
-                <a href="/"> INICIO</a>
-                <a href="/Quien_Soy"> QUIEN SOY</a>
-                <a href="/Proyectos"> PROYECTOS</a>
+                <Link to="/"> INICIO</Link>
+                <Link to="/Quien_Soy"> QUIEN SOY</Link>
+                <Link to="/Proyectos"> PROYECTOS</Link>
             </div>
             <div className={`nav_toggle ${isOpen && "open"}`} onClick={ () => setIsOpen(!isOpen)} >
                 <span></span>
