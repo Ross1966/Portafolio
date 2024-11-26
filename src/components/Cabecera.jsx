@@ -6,7 +6,7 @@ export const Cabecera = () => {
     const [isOpen, setIsOpen] = useState(false)
     return(
         <div className="navbar">
-            <div className="nav_logo"> Rosa María Ibáñez</div>
+            <div className="nav_logo"> Rosa María Ibáñez </div>
             <div className={`nav_items ${isOpen && "open"}`}>
                 <Link to="/"> INICIO</Link>
                 <Link to="/Quien_Soy"> QUIEN SOY</Link>

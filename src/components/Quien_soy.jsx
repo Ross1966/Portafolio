@@ -10,20 +10,19 @@ export default function Quien() {
       <>
         <div className="quienSoy">
           <p className="yo">
-            <strong>Soy Licenciada en Informática Administrativa </strong> con
-            experiencia en la industria petrolera y el sector inmobiliario,
+            <strong>Soy Licenciada en Informática Administrativa </strong> trabajé en la industria petrolera y el sector inmobiliario,
             tengo pasión por la programación.</p>
             
-           <p className="yo"> He desarrollado habilidades técnicas y de comunicación, recientemente terminé un bootcamp en
+           <p className="yo"> He desarrollado habilidades técnicas y de comunicación, terminé un bootcamp en
             Laboratoria. Estoy lista para nuevos retos, confiando en mi
             capacidad para adaptarme y contribuir a cualquier equipo en la
             creación de productos innovadores y efectivos, destacando la
             importancia del aprendizaje continuo.</p>
 
-           <p className="yo"> En el bootcamp de Laboratoria creamos proyectos de vanguardia con
+           <p className="yo"> En Laboratoria creamos proyectos de vanguardia con
             nuevas tecnologías implenmentadas con la metodología scrum
             utilizando: html, css, javascript, bootstrap, node.js, git, github y
-            react.
+            react. Pero sobre todo aprendí el método de Aprender a Aprender.
           </p>
          
 

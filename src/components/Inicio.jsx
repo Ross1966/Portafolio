@@ -1,32 +1,38 @@
 import React from "react";
-import Rosa1 from "../assets/img/Rosa1.jpg"
-
-
+import Ross1 from "../assets/img/Ross1.png";
+import PcNueva from "../assets/img/pcnueva.png"
 
 export default function Inicio() {
- 
-  
   return (
     <div>
-      <div className="uno">
-        <h1>
-          <strong>Web Developer </strong>
-        </h1>
+      <section className="uno">
+        <div className="content">
+          <p className="web">WEB DEVELOPER</p>
+        </div>
 
-        <img src={Rosa1} className="imagen1" alt="sistemas" />
+        <div className="imagen">
+          <img src={Ross1} className="imagen1" alt="sistemas" />
+          <br></br>
+          <br></br>
+        </div>
 
-        <h2>
-          Como <strong>desarrolladora web,</strong> Creo soluciones digitales
-          personalizadas, enfocadas en las necesidades y objetivos del usuario,
-          diseñando sitios funcionales y atractivos.
-        </h2>
-        <hr></hr>
-        <h3>
-          <strong>¡Quiero colaborar contigo!</strong>
-        </h3>
+        <br></br>
+        <br></br>
+      </section>
 
-           
-      </div>
+      <br></br>
+      <br></br>
+      <br></br>
+
+      <section className="dos">
+        <img src={PcNueva} className="imagen1" alt="sistemas" />
+
+        <p>
+          Hola, mi nombre es Rosa María y me gusta la tecnología. Desarrollo sistemas Web
+          fullstack, utilizando Html, Css, Javascript, React, así como backend con
+          Node.js, Express, Php y Bases de Datos Sql y no Sql.
+        </p>
+      </section>
     </div>
   );
 }

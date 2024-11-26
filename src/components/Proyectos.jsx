@@ -7,13 +7,14 @@ import { projectsData } from "../data";
 
 
 
+
 const Projects = () => {
   
     /*const [projetsData, setData] = useState(projectsData)*/
     console.log(projectsData)
   return (
     <>
-     <p className="projetTitulo">Mis Proyectos</p>
+     <p className="projetTitulo"><strong>Mis Proyectos</strong></p>
       <div className="projects-container">
          
           {projectsData.map((project, index) => (
@@ -21,9 +22,13 @@ const Projects = () => {
                    
                    <a className="titProyect"
                     href={project.link}>
-                   {project.title}</a>
-                   
+                       {project.title}
+                       <img src={project.image} className="imagenProyect" alt="" />
+                   </a>
+
+                                      
                     <p>{project.description}</p>
+                   
               </div>
           ))}
       </div>
