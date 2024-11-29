@@ -12,7 +12,7 @@ export const projectsData = [
       "Se trata de jugar eligiendo un tema de interés en el cuál debemos seleccionar las respuestas correctas para ser el ganador. Fue creado con HTML, CSS, Javascript y bootstrap version 4.6",
     image: triviaImage,
     
-    link: "https://esteticahm.000webhostapp.com/",
+    link: "https://ross1966.github.io/Trivia/",
   },
 
   {
